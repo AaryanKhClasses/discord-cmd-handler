@@ -81,4 +81,4 @@ module.exports = (client) => {
 [Creator and Owner of this repository]: <https://github.com/AaryanKhClasses>
 [Bacc, a multipurpose bot]: <https://github.com/AaryanKhClasses/Bacc>
 [Support Server]: <https://dsc.gg/bacc>
-[Client.events]: <>
+[Client.events]: <https://discord.js.org/#/docs/main/stable/class/Client>
