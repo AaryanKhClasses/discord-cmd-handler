@@ -1,0 +1,33 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "A command handler with ability to add custom prefixes and commands!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaryanKhClasses/a.git"
+  },
+  "keywords": [
+    "discordjs",
+    "discord-cmd-handler",
+    "mongodb",
+    "bacc",
+    "aaryankh",
+    "predefined-code",
+    "nodejs",
+    "discord"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaryanKhClasses/a/issues"
+  },
+  "homepage": "https://github.com/AaryanKhClasses/a#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.12.12"
+  }
+}

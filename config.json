@@ -1,0 +1,5 @@
+{
+    "token": "token here",
+    "prefix": "prefix here",
+    "mongoPass": "mongodb path here"
+}
