@@ -48,6 +48,18 @@ module.exports = {
 }
 ```
 #
+#### - Message Events
+##### For setting up message events go to `events/events` folder and add a file (for eg., `guildMemberAdd.js`), you have to add some pre-written code for every event file you add. The code:
+#
+```js
+module.exports = (client) => {
+    client.on('the event name here', (event params here) => {
+        //event code here
+    })
+}
+```
+##### - To see what events are included in `discord.js`, go check [Client.events]
+#
 ---
 #### Heroku (Optional)
 ##### This isn't a tutorial of how to setup heroku!
@@ -59,15 +71,14 @@ module.exports = {
 ##### 1. [Creator and Owner of this repository]
 ##### 2. [Bacc, a multipurpose bot]
 ##### 3. [Support Server]
-##### 4. [Issues Page]
 
 ### Thanks for seeing this repository and please `Star` if this helped you 😀
 ---
 [setting mongodb]: <https://github.com/AaryanKhClasses/a#mongodb>
-[Issues Page]: <https://github.com/AaryanKhClasses/a/issues>
 [MongoDB]: <https://www.mongodb.com/>
 [Organization]: <https://cloud.mongodb.com/v2#/preferences/organizations/create>
 [Discord Developer Portal]: <https://discord.com/developers/applications/>
 [Creator and Owner of this repository]: <https://github.com/AaryanKhClasses>
 [Bacc, a multipurpose bot]: <https://github.com/AaryanKhClasses/Bacc>
 [Support Server]: <https://dsc.gg/bacc>
+[Client.events]: <>

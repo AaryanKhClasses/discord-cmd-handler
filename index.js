@@ -5,6 +5,7 @@ const config = require('./config.json')
 
 //export loading
 const loadCommands = require('./commands/load-commands.js')
+const loadEvents = require('./events/load-events')
 
 //event ready
 client.on('ready', () => {
@@ -12,6 +13,7 @@ client.on('ready', () => {
     client.user.setActivity(`${config.prefix}help`, {type: 'LISTENING'}).catch(console.error)
 
     loadCommands(client)
+    loadEvents(client)
 })
 
 //login
