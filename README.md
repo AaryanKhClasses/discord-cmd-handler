@@ -60,7 +60,7 @@ module.exports = (client) => {
 ```
 ##### - To see what events are included in `discord.js`, go check [Client.events]
 #
----
+----
 #### Heroku (Optional)
 ##### This isn't a tutorial of how to setup heroku!
 ##### But if you want to setup heroku, the `Procfile` file in the root directory makes so the bot runs 24/7!
